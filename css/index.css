@@ -135,23 +135,24 @@
   
   /*Location Stles*/
 .location {
-    height:750px;
+    height: 750px;
     width: 100%;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    display:flex;
-    flex-flow: row-nowrap;
-    justify-content:space-around;
-    align-content:center;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    align-content: center;
 }
   
 .locations h2 {
+    width: 200px;
     color: black;
     text-align:center;
     position: relative;
-    top:100px;
-    left: 510px;
+    top: 100px;
+    left: 100%;
 }
   
 .address {
